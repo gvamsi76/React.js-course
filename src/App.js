@@ -7,6 +7,11 @@ import ClassState from './class/ClassState';
 import ClassStates from './class/ClassStates';
 import ClassEvent from './class/ClassEvent';
 import FunEvent from './functions/FunEvent';
+import Mounting from './lifecycle/Mounting'
+import Updating from './lifecycle/Updating'
+import User from'./lifecycle/User'
+import State from './hooks/State'
+import Effect from './hooks/Effect'
 
 function App() {
   return (
@@ -18,8 +23,13 @@ function App() {
       <ClassProps text={{ name: "vamshi" }} data="Profile Data" /> 
       <ClassState />
       <ClassStates />
-      <ClassEvent /> */}
-      <FunEvent />
+      <ClassEvent /> 
+      <FunEvent /> 
+      <Mounting />
+      <Updating /> 
+      <User /> 
+      <State /> */}
+      <Effect />
     </div>
   );
 }

@@ -5,17 +5,21 @@ import FunProps from './functions/FunProps';
 import ClassProps from './class/ClassProps';
 import ClassState from './class/ClassState';
 import ClassStates from './class/ClassStates';
+import ClassEvent from './class/ClassEvent';
+import FunEvent from './functions/FunEvent';
 
 function App() {
   return (
     <div className="App">
       {/* <Class />
       <Function />
-      <Task /> */}
-      {/* <FunProps  text ={{name : "vamshi"}} data ="Profile Data"/>
-      <ClassProps  text ={{name : "vamshi"}} data ="Profile Data"/> */}
-      {/* <ClassState /> */}
+      <Task />
+      <FunProps text={{ name: "vamshi" }} data="Profile Data" />
+      <ClassProps text={{ name: "vamshi" }} data="Profile Data" /> 
+      <ClassState />
       <ClassStates />
+      <ClassEvent /> */}
+      <FunEvent />
     </div>
   );
 }

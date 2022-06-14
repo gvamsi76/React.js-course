@@ -1,6 +1,7 @@
 import Class from './class/Class';
 import Task from './components/Task'
 import Function from './functions/Function';
+import FuncForm from './functions/FuncForm';
 import FunProps from './functions/FunProps';
 import ClassProps from './class/ClassProps';
 import ClassState from './class/ClassState';
@@ -12,13 +13,14 @@ import Updating from './lifecycle/Updating'
 import User from'./lifecycle/User'
 import State from './hooks/State'
 import Effect from './hooks/Effect'
+import ClassForm from './class/ClassForm';
 
 function App() {
   return (
     <div className="App">
       {/* <Class />
       <Function />
-      <Task />
+    <Task />
       <FunProps text={{ name: "vamshi" }} data="Profile Data" />
       <ClassProps text={{ name: "vamshi" }} data="Profile Data" /> 
       <ClassState />
@@ -28,8 +30,11 @@ function App() {
       <Mounting />
       <Updating /> 
       <User /> 
-      <State /> */}
-      <Effect />
+      <State /> -
+      <Effect /> 
+      <ClassForm /> */}
+      <FuncForm />
+      
     </div>
   );
 }

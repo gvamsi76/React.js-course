@@ -10,7 +10,7 @@ import ClassEvent from './class/ClassEvent';
 import FunEvent from './functions/FunEvent';
 import Mounting from './lifecycle/Mounting'
 import Updating from './lifecycle/Updating'
-import User from'./lifecycle/User'
+import User from './lifecycle/User'
 import State from './hooks/State'
 import Effect from './hooks/Effect'
 import ClassForm from './class/ClassForm';
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       {/* <Class />
       <Function />
-    <Task />
+      <Task />
       <FunProps text={{ name: "vamshi" }} data="Profile Data" />
       <ClassProps text={{ name: "vamshi" }} data="Profile Data" /> 
       <ClassState />
@@ -34,7 +34,7 @@ function App() {
       <Effect /> 
       <ClassForm /> */}
       <FuncForm />
-      
+
     </div>
   );
 }

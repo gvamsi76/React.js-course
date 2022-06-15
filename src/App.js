@@ -14,6 +14,7 @@ import User from './lifecycle/User'
 import State from './hooks/State'
 import Effect from './hooks/Effect'
 import ClassForm from './class/ClassForm';
+import Memo from './hooks/Memo';
 
 function App() {
   return (
@@ -32,8 +33,9 @@ function App() {
       <User /> 
       <State /> -
       <Effect /> 
-      <ClassForm /> */}
-      <FuncForm />
+      <ClassForm /> 
+      <FuncForm /> */}
+      <Memo />
 
     </div>
   );

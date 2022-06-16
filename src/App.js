@@ -15,6 +15,8 @@ import State from './hooks/State'
 import Effect from './hooks/Effect'
 import ClassForm from './class/ClassForm';
 import Memo from './hooks/Memo';
+import FetchDataHook from './components/FetchDataHook';
+import FetchData from './class/FetchData';
 
 function App() {
   return (
@@ -34,8 +36,10 @@ function App() {
       <State /> -
       <Effect /> 
       <ClassForm /> 
-      <FuncForm /> */}
-      <Memo />
+      <FuncForm />
+      <Memo /> */}
+      {/* <FetchDataHook /> */}
+      <FetchData />
 
     </div>
   );

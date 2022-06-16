@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Memo() {
   const [number, setNumber] = useState(0)
   const squaredNum = squareNum(number);
-  const [counter, setCounter] = useState(0);
+  //const [counter, setCounter] = useState(0);
 
   // function to square the value
   function squareNum(number) {

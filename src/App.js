@@ -17,6 +17,7 @@ import ClassForm from './class/ClassForm';
 import Memo from './hooks/Memo';
 import FetchDataHook from './components/FetchDataHook';
 import FetchData from './class/FetchData';
+import Count from './components/Count';
 
 function App() {
   return (
@@ -38,9 +39,9 @@ function App() {
       <ClassForm /> 
       <FuncForm />
       <Memo /> */}
-      {/* <FetchDataHook /> */}
-      <FetchData />
-
+      {/* <FetchDataHook /> 
+      <FetchData /> */}
+      <Count />
     </div>
   );
 }

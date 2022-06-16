@@ -13,6 +13,7 @@ import Updating from './lifecycle/Updating'
 import User from './lifecycle/User'
 import State from './hooks/State'
 import Effect from './hooks/Effect'
+import Reducers from './hooks/Reducers'
 import ClassForm from './class/ClassForm';
 import Memo from './hooks/Memo';
 import FetchDataHook from './components/FetchDataHook';
@@ -42,6 +43,7 @@ function App() {
       {/* <FetchDataHook /> 
       <FetchData /> */}
       <Count />
+      <Reducers />
     </div>
   );
 }

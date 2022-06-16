@@ -19,6 +19,7 @@ import Memo from './hooks/Memo';
 import FetchDataHook from './components/FetchDataHook';
 import FetchData from './class/FetchData';
 import Count from './components/Count';
+import Ref from './hooks/Ref';
 
 function App() {
   return (
@@ -39,11 +40,13 @@ function App() {
       <Effect /> 
       <ClassForm /> 
       <FuncForm />
-      <Memo /> */}
-      {/* <FetchDataHook /> 
-      <FetchData /> */}
-      <Count />
-      <Reducers />
+      <Memo /> 
+       <FetchDataHook /> 
+      <FetchData />
+        <Reducers /> 
+      <Count /> */}
+      <Ref />
+
     </div>
   );
 }
